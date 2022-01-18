@@ -17,8 +17,8 @@ Our project fulfills three Sustainable Development Goals, which are “No Povert
 ---
 
 | Name | Matric No.|
-| -----| ---------|
-|<mark>MUHAMMAD AFIQ HUSYAIRI BIN MOHAMAD FADZLI</mark>|<mark>2018769</mark>|
+| -----| :---:|
+|[MUHAMMAD AFIQ HUSYAIRI BIN MOHAMAD FADZLI](https://www.linkedin.com/in/afiqhusyairi)|**2018769**|
 |AHMAD NORSAFWAN BIN NORASIDIN|2010279|
 |AHMAD FAIZ BIN TAJUL ANUAR|2010537|
 |ABDUL RAZIQ ILHAM BIN ROSLI|2016297|
