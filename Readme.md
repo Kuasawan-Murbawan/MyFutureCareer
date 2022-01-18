@@ -198,3 +198,14 @@ https://www.freepik.com/
 
 - Job Street. Multiple job description from <br>
 https://www.jobstreet.com.my/
+
+## How to access
+
+1. Go to this link <br>
+https://github.com/Kuasawan-Murbawan/MyFutureCareer
+2. Click Code
+![image info](img/Github.png)
+3. Download ZIP
+4. Unzip file
+5. Open "Homepage.html"
+6. Enjoy
