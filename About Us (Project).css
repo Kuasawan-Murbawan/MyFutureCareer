@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #f4ece6;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 1000;
+}
+
+header .icon {
+  position: relative;
+  font-weight: 700;
+  color: #62422b;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 1px 0.5px #842222;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+  font-weight: bold;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #62422b;
+  text-shadow: 1px 1px 1px #842222;
+  letter-spacing: 2.5px;
+  font-weight: 500px;
+  transition: 0.6s;
+  z-index: 1000;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+header.sticky {
+  padding: 15px 100px;
+  background: #62422b;
+}
+
+header.sticky .icon,
+header.sticky ul li a {
+  color: #fff;
+  text-shadow: none;
+}
+.section-1{
+  width: 100%;
+  min-height: 80vh;
+}
+.container{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 70px;
+}
+.content-section{
+  padding-top: 20px;
+  float: left;
+  width: 55%;
+}
+.image-section{
+  float: right;
+  width: 40%;
+}
+.image-section img{
+  width: 100%;
+  height: auto;
+}
+.container .title{
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-transform: uppercase;
+  font-size: 28px;
+  padding-top: 80px;
+}
+.container .title h1::after{
+  content:"";
+  height: 5px;
+  width: 195px;
+  background-color: #62422b;
+  border-radius: 25px;
+  position: relative;
+  display: block;
+  margin-left: 20px;
+}
+.content-section .content{
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 21px;
+}
+.content-section .content{
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+p{
+  margin-top: 15px;
+  text-align: justify;
+}
+.content-section .content .button{
+  padding-top: 40px;
+}
+.content-section .content .button a{
+  background-color: #62422b;
+  border-radius: 5px;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22 px;
+  letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+.section-2{
+  padding-top: 64px;
+}
+table, th, td{
+  margin-left: 180px;
+  color:#3d3d3d;
+}
+th {
+  font-size:18px;
+  text-align: left;
+  padding-bottom: 5px;
+}
+td{
+  padding-bottom: 12px;
+}
+.values a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #62422b;
+}
+.values a:hover{
+  text-decoration: underline;
+  color: #3d3d3d;
+}
+
+.section-3{
+  width: 100%;
+  min-height: 115vh;
+}
+.content-section .contacts h3::after{
+  content:"";
+  height: 4px;
+  width: 175px;
+  background-color: #62422b;
+  border-radius: 25px;
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.content-section .contacts{
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 20px;
+}
+.content-section .contacts{
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 0.5;
+}
+.mapBorder{
+  margin-top: 40px;
+  width: 710px;
+  border: 1.8px solid;
+  border-radius: 4px;
+  color: #62422b;
+}
+.content-section .social{
+  margin: 30px 25px;
+}
+.content-section .social i{
+  color: #62422b;
+  font-size: 27px;
+  padding: 0px 10px;
+}
+.content-section .social i:hover{
+  color:#3d3d3d;
+}
+
+.footer {
+  background-color: #62422b;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  padding: 25px 50px;
+}
+.footer .footer-logo {
+  float: right;
+}
+.footer .footer-logo a {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 15px;
+}

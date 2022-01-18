@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+
+</head>
+
+
+<body>
+
+    <header>
+        <a href="Homepage.html" class="icon">MyFutureCareer</a>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="jobondemand.html">Job On Demand</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </header>
+
+    <div class="header">
+
+        <h1 class="title">Feedback</h1>
+
+        <div class="details">
+            <h3>We really value your opinion about our website.</h3>
+            <p>Please complete the following form and help us improve our customer experience</p>
+        </div>
+
+    </div>
+
+    <div class="qna">
+
+        <h2 class="title">Let's Chat</h2>
+
+        <div class="forms">
+
+            <form name="myForm" onsubmit="return validateForm()">
+
+                <div class="container">
+                    <div class="cred">
+                        <div class="box">
+                            <div class="pic">
+                                <img src="Source/First Name.png" alt="Profile Icon" class="icon profile">
+                            </div>
+                            <div class="input">
+                                <label for="fname">First name:</label><br>
+                                <input type="text" id="fname" name="fname" placeholder="John" class="blanks">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="cred">
+                        <div class="box">
+                            <div class="pic">
+                                <img src="Source/Last Name.png" alt="Profile Icon" class="icon">
+                            </div>
+                            <div class="input">
+                                <label for="lname">Last name:</label><br>
+                                <input type="text" id="lname" name="lname" placeholder="Doe" class="blanks">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="cred">
+                        <div class="box">
+                            <div class="pic">
+                                <img src="Source/Email.png" alt="Profile Icon" class="icon">
+                            </div>
+                            <div class="input">
+                                <label for="email">Email:</label><br>
+                                <input type="text" id="email" name="email" placeholder="JohnDoe@gmail.com"
+                                    class="blanks">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border"></div>
+
+                <div>
+                    <table>
+
+                        <tr>
+                            <td></td>
+                            <td>Very Unsatisfed</td>
+                            <td>Unsatisfed</td>
+                            <td>Neutral</td>
+                            <td>Satisfied</td>
+                            <td>Very Satisfied</td>
+                        </tr>
+
+                        <tr>
+                            <td class="question">Are you satisfied with our website?</td>
+                            <td class="rad"><input type="radio" name="q1"></td>
+                            <td class="rad"><input type="radio" name="q1"></td>
+                            <td class="rad"><input type="radio" name="q1"></td>
+                            <td class="rad"><input type="radio" name="q1"></td>
+                            <td class="rad"><input type="radio" name="q1"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="question">Are you satisfied with our service?</td>
+                            <td class="rad"><input type="radio" name="q2"></td>
+                            <td class="rad"><input type="radio" name="q2"></td>
+                            <td class="rad"><input type="radio" name="q2"></td>
+                            <td class="rad"><input type="radio" name="q2"></td>
+                            <td class="rad"><input type="radio" name="q2"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="question">How satisfied you are for our overall satisfaction?</td>
+                            <td class="rad"><input type="radio" name="q3"></td>
+                            <td class="rad"><input type="radio" name="q3"></td>
+                            <td class="rad"><input type="radio" name="q3"></td>
+                            <td class="rad"><input type="radio" name="q3"></td>
+                            <td class="rad"><input type="radio" name="q3"></td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div>
+                    <h3>Tell us how we can improve</h3>
+                    <input type="text" name="comment" placeholder="Write your comments here" class="comments">
+                </div>
+
+                <div class="container2">
+                    <input type="reset" value="Reset" class="butang reset">
+                    <p class="butang submit" onclick="validateForm()">Submit</p> <!-- Do css button exercise -->
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-logo">
+          <a href="https://www.linkedin.com/in/afiqhusyairi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Kuasawan-Murbawan" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+  
+        <div class="footer-left">
+            <p style="color: white;">&copy; 2022 MyFutureCareer | All Rights Reserved</p>
+        </div>
+  
+      </footer>
+  
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

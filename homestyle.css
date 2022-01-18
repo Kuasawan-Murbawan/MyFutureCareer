@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Quicksand', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f4ece6;
+  min-height: 200vh;
+}
+
+/*=======================Navigation Bar==========================*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 1000;
+}
+
+header .icon {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 1px 0.5px #000;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+  font-weight: bold;
+}
+
+header ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header ul li:hover::after{
+    width: 100%;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 0.5px 3px #000;
+  letter-spacing: 2.5px;
+  transition: 0.6s;
+  z-index: 1000;
+}
+
+header.sticky {
+  padding: 5px 100px;
+  background: #d0ae94;
+}
+
+header.sticky .icon,
+header.sticky ul li a {
+  color: #000;
+  text-shadow: none;
+}
+
+header.sticky ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header.sticky ul li:hover::after{
+    width: 100%;
+}
+
+/*===============================Banner==============================*/
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(beautiful-asian-muslim-lady-casual-wear-working-using-laptop-modern-new-normal-office.jpg);
+  background-size: cover;
+}
+
+.mainText1 {
+  position: absolute;
+  text-align: right;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  font-size: 5em;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+.mainText1:hover {
+  text-shadow: 5px 5px #000;
+  transition: 0.5s;
+}
+
+.mainText2 {
+  position: absolute;
+  text-align: right;
+  top: 30%;
+  left: 10%;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+.mainText2:hover {
+  text-shadow: 5px 5px #000;
+  transition: 0.5s;
+}
+
+.mainText3 {
+  position: absolute;
+  text-align: right;
+  top: 40%;
+  left: 10%;
+  color: #fff;
+  font-size: 7em;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.mainText3:hover {
+  text-shadow: 5px 5px #000;
+  transition: 0.5s;
+}
+
+#apply {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  background-color: #62422b;
+  border-radius: 5px;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  transition: 0.5s;
+}
+
+#apply:hover{
+  background-color: #fff;
+  color: #000;
+  box-shadow: 5px 5px #000;
+  transition: 0.5s;
+}
+
+/*===========================Client=============================*/
+.client {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#clientHeading {
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.row {
+  padding: 5px;
+  height: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+}
+
+.column {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding-top: 15px;
+  color: #62422b;
+}
+
+.title {
+  color: #000;
+  opacity: 0.65;
+}
+
+/*=====================video==========================*/
+.video {
+  margin-top: 30px;
+  padding: 50px;
+}
+
+#videoHeading {
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.youtube {
+  border-radius: 20px;
+}
+
+/*====================subscription====================*/
+.subscription {
+  margin-top: 30px;
+}
+
+#newsHeading {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.subscriptionForm {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.subscriptionForm input {
+  width: 35%;
+  height: 50px;
+  margin-right: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+button {
+  width: 100px;
+  color: #fff;
+  background-color: #62422b;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.toTop {
+  position: relative;
+  margin: 10px;
+  color: #fff;
+  background: #62422b;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  left: 195vh;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.toTop a {
+  color: #fff;
+}
+
+/*====================footer========================*/
+.footer {
+  background-color: #62422b;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 25px 50px;
+}
+
+.footer .footer-logo {
+  float: right;
+}
+
+.footer .footer-logo a {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 15px;
+}

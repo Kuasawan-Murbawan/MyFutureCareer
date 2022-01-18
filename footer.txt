@@ -1,0 +1,39 @@
+>>> HTML <<<
+
+<footer class="footer">
+
+      <div class="footer-logo">
+        <a href="masuk link facebook masing2"><i class="fab fa-facebook-f"></i></a>
+        <a href="masuk link twitter masing2"><i class="fab fa-twitter"></i></a>
+        <a href="masuk link insta masing2"><i class="fab fa-instagram"></i></a>
+        <a href="masuk link github masing2"><i class="fab fa-github"></i></a>
+      </div>
+
+      <div class="footer-left">
+          <p style="color: white;">&copy; 2022 MyFutureCareer | All Rights Reserved</p>
+      </div>
+
+    </footer>
+
+=============================================================================
+
+>>> CSS <<<
+
+.footer {
+  background-color: #62422b;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 25px 50px;
+}
+
+.footer .footer-logo {
+  float: right;
+}
+
+.footer .footer-logo a {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 15px;
+}

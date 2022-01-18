@@ -1,0 +1,116 @@
+>> HTML <<
+
+    <header>
+      <a href="Homepage.html" class="icon">MyFutureCareer</a>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="jobondemand.html">Job On Demand</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </header>
+
+===============================================================================
+
+>> CSS <<
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 1000;
+}
+
+header .icon {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 1px 0.5px #000;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+  font-weight: bold;
+}
+
+header ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header ul li:hover::after{
+    width: 100%;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  letter-spacing: 2.5px;
+  font-weight: 500px;
+  transition: 0.6s;
+  z-index: 1000;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+header.sticky {
+  padding: 5px 100px;
+  background: #d0ae94;
+}
+
+header.sticky .icon,
+header.sticky ul li a {
+  color: #000;
+  text-shadow: none;
+}
+
+header.sticky ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header.sticky ul li:hover::after{
+    width: 100%;
+}
+=====================================================================
+
+>> Javascript <<
+
+window.addEventListener('scroll', function(){
+  var header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+})

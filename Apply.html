@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Application Page</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  </head>
+  <body>
+
+    <header>
+      <a href="Homepage.html" class="icon">MyFutureCareer</a>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="jobondemand.html">Job On Demand</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </header>
+
+    <h2>Job Application</h2>
+    <form class="" onsubmit="return setContent()">
+      <div >
+
+        <label class="" for="fname">First Name </label><br>
+        <input type="text" name="fname" id="fname" placeholder="John"  required>
+
+      </div>
+      <div >
+
+        <label class="" for="lname">Last Name </label><br>
+        <input type="text" name="lname" id="lname" placeholder="Doe" required>
+
+      </div>
+      <div >
+
+        <br>
+        <label class="" for="gender">Gender </label><br>
+        <input  type="radio" name="gender" id="male" value="male">
+        <label class="" for="male">Male </label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label class="" for="female">Female </label><br>
+      </div>
+      <div >
+
+        <br>
+        <label class="" for="contact">Contact No </label><br>
+        <input type="tel" name="tel" id="tel"placeholder="+60132205089" required>
+
+      </div>
+      <div >
+
+        <label class="" for="email">Email </label><br>
+        <input type="email" name="email" id="email" placeholder="abcdef@fmail.com" required>
+
+      </div>
+      <div >
+
+        <label for="file">Upload your Resume here:</label>
+        <input type="file" name="file" id="file">
+        <p id="warn"></p>
+      </div>
+      <div >
+
+        <button type="reset" name="Reset">Reset</button>
+        <button type="submit" id="submit" name="submit">Submit</button>
+
+      </div>
+
+
+
+      <script type="text/javascript" src="scripto.js">
+
+      </script>
+
+    </form>
+
+    <footer class="footer">
+
+      <div class="footer-logo">
+        <a href="https://www.facebook.com/akimkaswan13" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/akeeemm" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_akeeem_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/mrkeemball13" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+
+      <div class="footer-left">
+          <p style="color: white;">&copy; 2022 MyFutureCareer | All Rights Reserved</p>
+      </div>
+
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="jobdescStyle.css">
+    <style>
+    input[type=button] {
+      margin-top: 97px;
+    }
+    </style>
+    <script type="text/javascript">
+    window.addEventListener('scroll', function(){
+      var header = document.querySelector('header');
+      header.classList.toggle('sticky', window.scrollY > 0);
+})
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="Homepage.html" class="icon">MyFutureCareer</a>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="jobondemand.html">Job On Demand</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </header>
+    <h1>Job Description</h1>
+    <div class="dark">
+      <p class="title"><strong>Account Executive</strong></p>
+      <img src="img/job2-1.jpg" alt = "accountant" width = "370" height = "150"><img src="img/job2-2.jpg" alt = "logo" width = "200" height = "150"><br>
+      <div class="desc">
+        <br>
+        ADS is the trading name of ADS International Express Sdn Bhd.
+        ADS is an established Malaysian based logistics company & licensed courier provider
+        and we work closely with world leading airlines, partners and logistics companies both from the Far East and European countries.
+        We specialize in airfreight forwarding,
+        international door to door courier delivery, trucking, warehouse facilities, distribution,
+        order fulfillments, cargo insurance and strategic consultation.
+        We value strong relationship building with our partners and clients,
+        and all members of the company take pride in what we do and are always prepared
+        and committed in adopting hands-on approach in our
+        day to day work providing personalized service to our customers.
+        <br><br><br>
+      </div>
+      <a href="Apply.html">
+        <input type="button" class="job" value="Apply">
+      </a>
+    </div>
+  </body>
+</html>

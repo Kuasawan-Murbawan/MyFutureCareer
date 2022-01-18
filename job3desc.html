@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="jobdescStyle.css">
+    <style>
+    input[type=button] {
+      margin-top: 106px;
+    }
+    </style>
+    <script type="text/javascript">
+    window.addEventListener('scroll', function(){
+      var header = document.querySelector('header');
+      header.classList.toggle('sticky', window.scrollY > 0);
+})
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="Homepage.html" class="icon">MyFutureCareer</a>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="jobondemand.html">Job On Demand</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </header>
+    <h1>Job Description</h1>
+    <div class="dark">
+      <p class="title"><strong>Farm Operations Manager</strong></p>
+      <img src="img/job3-1.jpg" alt = "farm" width = "300" height = "150"><img src="img/job3-2.jpg" alt = "logo" width = "230" height = "110"><br>
+      <div class="desc">
+        <p><strong>What you will be doing: </strong></p>
+        <ul>
+          <li>Overall in charge of operations – packing house, sales, set-up, workshop, admin matters.</li>
+          <li>Oversee day-to-day operation of entire farm.</li>
+          <li>Create an inspiring team environment with an open communication culture.</li>
+          <li>Set clear team goals, delegate tasks and set deadlines.</li>
+          <li>Improve operational system and processes.</li>
+          <li>Purchase goods, plan inventory.</li>
+          <li>Perform quality controls and monitor production KPIs frequently.</li>
+        </ul>
+      </div>
+      <a href="Apply.html">
+        <input type="button" class="job" value="Apply">
+      </a>
+    </div>
+  </body>
+</html>

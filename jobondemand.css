@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #dbc6b6;
+
+  box-sizing: border-box;
+}
+
+header .icon {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 1px 0.5px #000;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+  font-weight: bold;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  letter-spacing: 2.5px;
+  font-weight: 500px;
+  transition: 0.6s;
+  z-index: 1000;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+header.sticky {
+  padding: 5px 100px;
+  background: #d0ae94;
+}
+
+header.sticky .icon,
+header.sticky ul li a {
+  color: #000;
+  text-shadow: none;
+}
+
+h1{
+  position:static;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight:900;
+  text-shadow: 1px 1px 3px #000;
+}
+
+h2{
+  font-family: "Raleway", sans-serif;
+}
+
+p{
+  font-family: "Raleway", sans-serif;
+}
+
+li{
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+.logo{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+}
+
+.title{
+
+  padding-top: 20px;
+
+}
+
+#fixedheight{
+  table-layout: fixed;
+  width: 100%;
+}
+
+#fixedheight tr{
+  height: 20px;
+
+}
+
+.jobPanel{
+  height: 100%;
+
+
+  margin:20px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  max-height: 400px;
+  overflow: hidden;
+
+  position: relative;
+
+
+  border: 5px outset grey;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+
+
+  background-color: #F4ECE6;
+  opacity: 1;
+  background-size: 16px 16px;
+  background-image:  repeating-linear-gradient(0deg, #e3dece, #e3dece 0.8px, #F4ECE6 0.8px, #F4ECE6);
+
+    transition: all 0.2s ease-out;
+}
+
+.jobPanel:hover{
+  position:static;
+  background-color: white;
+  background: white;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 0px 0px;
+  max-height: 1000px;
+
+}
+
+input[type=submit]{
+  float: right;
+}
+
+body{
+  background-color: #efddcf;
+opacity: 1;
+background-image:  radial-gradient(#d0ae94 1px, transparent 4px), radial-gradient(#d0ae94 1px, #efddcf 4px);
+background-size: 80px 80px;
+background-position: 0 0,40px 40px;
+
+}
+
+.footer {
+  background-color: #62422b;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 25px 50px;
+}
+
+.footer .footer-logo {
+  float: right;
+}
+
+.footer .footer-logo a {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 15px;
+}
